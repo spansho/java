@@ -19,6 +19,8 @@ public class App {
        // }
 
     	System.out.print("Стартуем");
+    	System.out.print("Стартуем");
+
         UserService userService = new UserService();
         User user = new User(1,"Masha",26);
         userService.saveUser(user);
